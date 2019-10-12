@@ -1,0 +1,20 @@
+<?php
+session_start();
+session_destroy();
+echo'<meta http-equiv="refresh" content="2;URL=index.php">'; 
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+	<div class="alert alert-success" role="alert" style="text-align:center;margin-top:20px">
+    	<h3 class="text-success">Uğurla çıxış etdiniz.Yönləndirilirsiz...</h3>
+	</div>
+</body>
+</html>

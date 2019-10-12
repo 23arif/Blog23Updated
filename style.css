@@ -1,0 +1,723 @@
+/* ///////////////////_____Modals close button____/////////////////////////////////// */
+.close:hover{
+    color:red!important;
+}
+/* ////////////////////////////////////////////////////// */
+.konu{
+    background: #fff;
+    border:1px solid #ddd;
+    width:650px;
+    min-height: 400px;
+    position: relative;
+    margin:auto;
+    margin-top:10px;
+    overflow: hidden;
+    position: relative;
+}
+.konu h3{
+    border:1px solid #ddd;
+    padding:10px;
+    background: skyblue;
+}
+.konu h5{
+    border:1px solid #ddd;
+    padding:5px;
+    background: #f6f6f6;
+}
+.konu img{
+    width:30%;
+    height: 150px;
+    margin:10px;
+    float: left;
+}
+.contentStyle{
+    width:100%;
+    padding:5px;
+}
+
+
+
+
+.devam{
+    border:1px solid #ddd;
+    width:600px;
+    min-height: 350px;
+    position: relative;
+    margin:auto;
+    margin-top:10px;
+    overflow: hidden;
+}
+.devam h3{
+    border:1px solid #ddd;
+    padding:10px;
+    background: skyblue;
+}
+.devam h5{
+    border:1px solid #ddd;
+    padding:5px;
+    background: #f6f6f6;
+}
+.devam span{
+    float:right;
+}
+.devam img{
+    width: 500px;
+    height: 300px;
+    margin:auto;
+    display: block;
+    margin-bottom: 15px
+}
+.devam p{
+    margin:15px
+}
+
+.yorum_form{
+    width:600px;
+    min-height: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid #ddd;
+    margin-top:10px;
+    margin-bottom: 20px
+
+}
+.yorum_form h2{
+    width:600px;
+    background: skyblue;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    border:1px solid #ddd
+}
+.yorum_form .nn{
+    font-weight: bold
+}
+.yorum_form input,textarea{
+    padding: 5px;
+    width:400px
+}
+
+
+.yorumlar{
+    border:1px solid #ddd;
+    width: 600px;
+    margin: auto;
+    min-height: 100px;
+    overflow: hidden;
+}
+.yorumlar h5{
+    margin: 5px;
+    padding: 3px;
+    background: #d3d3d3
+
+}
+.yorumlar span{
+    float: right;
+}
+.yorumlar p{
+    margin: 5px;
+    padding: 3px;
+}
+.yorumsayisi{
+    border:1px solid #ddd;
+    width: 600px;
+    margin: auto;
+    margin-top:10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* default page sag menuler*/
+
+.uyelik{
+    border:1px solid #ddd;
+    width: 370px;
+    min-height: 30px;
+    float: left;
+    margin:10px 0 0 30px
+}
+.uyelik .form_content{
+padding: 7px
+}
+.uyelik .form_content button{
+    width: 100%
+}
+.uyelik h2{
+    background: skyblue;
+    padding: 5px;
+    text-align: center;
+    margin:0
+}
+.uyelik ul{
+    margin:3px;
+    padding:0;
+    list-style: none;
+}
+.uyelik ul li:not(.chngbl){
+    margin: 2px;
+    padding: 7px;
+    font-weight: bold;
+}
+.uyelik ul li.chngbl{
+    border:1px solid #ddd;
+    margin: 2px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightyellow;
+}
+.uyelik ul li.chngbl:hover{
+    background: lightblue;
+    text-decoration: none
+}
+.uyelik ul a{
+    text-decoration: none;
+    color:black;
+    display:block;
+    
+}
+.kategoritable{
+    border:1px solid #ddd;
+    width:370px;
+    min-height: 120px;
+    margin:30px 0 0 30px;
+    /* position: absolute;
+    right: 5%;
+    top:385px; */
+}
+.kategoritableKategorisayfasi{
+    top:65px;
+}
+
+.kategoritable h2{
+    background: skyblue;
+    padding: 5px;
+    text-align: center;
+    margin:0
+}
+.kategoritable ul{
+    margin:3px;
+    padding:0;
+    list-style: none;
+}
+.kategoritable ul li{
+    border:1px solid #ddd;
+    margin: 2px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightyellow;
+}
+.kategoritable ul li:hover{
+    background: lightblue;
+    text-decoration: none
+}
+.kategoritable ul a{
+    text-decoration: none;
+    color:black;
+    display:block;
+    
+}
+
+.pop{
+    border:1px solid #ddd;
+    width: 370px;
+    min-height: 30px;
+    margin:30px 0 0 30px;
+    /* float: right; */
+    /* position: absolute; */
+    /* right: 5%; */
+    /* top:660px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column  
+}
+.popkategorisayfasi{
+    top:130px;
+}
+.pop_ara_sayfasi{
+    top:420px
+}
+/* .pop_unsign{
+    top:580px
+} */
+.pop h2{
+    width:100%;
+    background: skyblue;
+    padding: 5px;
+    margin:0;
+    text-align: center;
+}
+.pop ul{
+    margin:3px;
+    padding:0;
+    list-style: none;
+}
+.pop ul li{
+    border:1px solid #ddd;
+    margin: 2px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightyellow;
+}
+.pop ul li:hover{
+    background: lightblue;
+    text-decoration: none
+}
+.pop ul a{
+    text-decoration: none;
+    color:black;
+    display:block;
+    
+}
+/* .pop a#idpop{
+    color:#000;
+}
+.pop a#idpop:hover{
+    text-decoration: none;
+    color:lightcoral
+} */
+/* default page sag menuler son*/
+
+/*     konu ekle menyusu          */
+.konu_ekle{
+    border:1px solid #ddd;
+    width:600px;
+    min-height: 400px;
+    margin:auto;
+    margin-top:20px;
+}
+.konu_ekle h2{ 
+    border:1px solid #ddd;
+    margin:3px;
+    padding:7px;
+    background: #eee;
+}
+.konu_ekle input{
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    font-size: 20px;
+}
+.konu_ekle ul li{
+    margin:5px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.konu_ekle select{
+    font-size: 20px;
+    font-weight: bold;
+}
+.konu_ekle textarea{
+    width:518px;
+    height: 300px;
+    font-size: 20px;
+
+}
+/*     konu ekle menyusu   son       */
+
+
+/*  admin paneli  */
+.header{
+    border:1px solid #ddd;
+    height: 200px;
+    width:100%;
+    background:url("img/trianglify-lowres.png") no-repeat;
+    background-size:100% 
+}
+.header img{
+    width:100px;
+    height:100px;
+    margin:20px 0 0 30px;
+    border-radius: 90px 90px 90px 90px
+}
+.header h6{
+    border:1px solid #ddd;
+    margin:5px;
+    padding:10px;
+    position: relative;
+    top:25px;
+    background: lightgreen
+}
+
+.genel{
+margin-top:15px;
+display: grid;
+grid-template-columns: 1fr 5fr;
+/* grid-template-rows: 650px 50px 600px */
+}
+.menu{
+border:1px solid #ddd;
+height: 650px;
+background: #ffffff;;
+
+}
+.menu ul li {
+    border:1px solid #ddd;
+    background: lightblue;
+    margin:2px;
+}
+.icerik{
+min-height: 550px;
+border:1px solid #ddd;
+margin-left:40px;
+margin-bottom: 20px;
+padding: 10px;
+background: #ffffff;;
+
+}
+
+/* admin page menuler  */
+.menu a{
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:purple;
+}
+/*  adim panel konular  */
+.icerik h2{
+    border:1px solid #ddd;
+    padding: 5px;
+    background: #eee;
+}
+.admin_konular table{
+    width: 100%;
+
+}
+.admin_konular th{
+    border:1px solid #ddd;
+    background: #eee;
+    padding:5px;
+    font-size: 20px;
+}
+.admin_konular  td{
+    border:1px solid #eee;
+    padding: 5px;
+    font-size: 20px;
+}
+.admin_konular tbody:hover{
+    background: #eee;
+    transition:  ease-in-out 0.2s;
+}
+.admin_konular tbody td{
+    border:1px solid #ddd;
+    height:60px;
+}
+.admin_konular td a{
+    text-decoration: none
+}
+.admin_konu_ekle input{
+    width: 400px;
+    height: 26px;
+    padding:15px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.admin_konu_ekle li{
+    margin: 6px;
+    font-size: 22px;
+    list-style: none;
+    font-weight: bold
+}
+.admin_konu_ekle textarea{
+    width:600px;
+    height: 250px;
+    font-size: 15px;
+    padding:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.admin_konu_ekle select{
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    margin:5px 0 10px 0;
+}
+.large_checkbox{
+    width:20px;
+    height:20px;
+} 
+
+/* Registration form */
+.registration_container{
+    margin:auto;
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: url("img/registration.jpg") no-repeat;
+    background-size:100%
+}
+.content label{
+    color:#ddd
+}
+
+/* registration page back button */
+#link1 a{
+    text-decoration:none;
+    color:#fff;
+}
+#link1 a:hover{
+    color:blue
+}
+
+/*  admin yorumlar*/
+.adminyorumlar table{
+    width: 100%;
+
+}
+.adminyorumlar th{
+    border:1px solid #ddd;
+    background: #eee;
+    padding:5px;
+    font-size: 20px;
+}
+.adminyorumlar  td{
+    border:1px solid #eee;
+    padding: 5px;
+    font-size: 20px;
+}
+.adminyorumlar tbody:hover{
+    background: #eee;
+    transition:  ease-in-out 0.2s;
+}
+.adminyorumlar tbody td{
+    border:1px solid #ddd;
+    height:60px;
+}
+.adminyorumlar td a{
+    text-decoration: none
+}
+
+/* admin uyeler  */
+
+.admin_users table{
+    width: 100%;
+
+}
+.admin_users th{
+    border:1px solid #ddd;
+    background: #eee;
+    padding:5px;
+    font-size: 20px;
+}
+.admin_users  td{
+    border:1px solid #eee;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center
+}
+.admin_users tbody:hover{
+    background: #eee;
+    transition:  ease-in-out 0.2s;
+}
+.admin_users tbody td{
+    border:1px solid #ddd;
+    height:60px;
+}
+.admin_users td a{
+    text-decoration: none
+}
+
+
+/*        admin uye_duzenle */
+.admin_uye_duzenle{
+    display: flex;
+    justify-content: center;
+    margin-top:20px
+
+}
+
+.admin_uye_duzenle input{
+    width: 400px;
+    height: 26px;
+    padding:15px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.admin_uye_duzenle select{
+    width: 400px;
+    height: 33px;
+    padding:4px 0 4px 14px;
+    font-size: 15px;
+}
+.admin_uye_duzenle li{
+    margin: 6px;
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold
+}
+
+/* admin_kategori */
+.admin_kategoiler table{
+    width: 100%;
+
+}
+.admin_kategoiler th{
+    border:1px solid #ddd;
+    background: #eee;
+    padding:5px;
+    font-size: 20px;
+}
+.admin_kategoiler  td{
+    border:1px solid #eee;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center
+}
+.admin_kategoiler tbody:hover{
+    background: #eee;
+    transition:  ease-in-out 0.2s;
+}
+.admin_kategoiler tbody td{
+    border:1px solid #ddd;
+    height:60px;
+}
+.admin_kategoiler td a{
+    text-decoration: none
+}
+
+/*   admin kategori duzenle  */
+.admin_kategori_duzenle{
+    display: flex;
+    justify-content: center;
+    margin-top:30px
+
+}
+
+.admin_kategori_duzenle input{
+    width: 400px;
+    height: 26px;
+    padding:15px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.admin_kategori_duzenle li{
+    margin: 6px;
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold
+}
+.admin_kategori_duzenle textarea{
+    width:400px;
+    height: 150px;
+    font-size: 15px;
+    padding:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/*   kategori ekle  */
+
+.admin_kategori_ekle{
+    display: flex;
+    justify-content: center;
+    margin-top:30px
+}
+.admin_kategori_ekle ul li{
+    margin:5px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.admin_kategori_ekle input{
+    width: 400px;
+    height: 26px;
+    padding:15px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.admin_kategori_ekle textarea{
+    width:400px;
+    height: 150px;
+    font-size: 15px;
+    padding:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/*  admin  pop */
+.admin_pop ul {
+    margin:3px;
+    padding:0;
+    list-style: none;
+}
+.admin_pop ul li{
+    border:1px solid #ddd;
+    margin: 2px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightyellow;
+}
+.admin_pop ul li:hover{
+    background: lightblue;
+    text-decoration: none
+}
+.admin_pop ul a{
+    text-decoration: none;
+    color:black;
+    display:block;
+    
+}
+/* ////////////________Profil section start______________/////////////////////////// */
+
+.profilContainer{
+    width: 100%;
+    min-height: 600px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 40px;
+}
+.rowLeft{
+    grid-row:1/2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#profilPhoto{
+    width: 129px;
+    height: 128px;
+    border-radius: 50%;
+
+}
+#profilPhoto img{
+    max-width: 100%;
+    max-height: 100%;
+    border:3px solid #222;
+    border-radius: 50%;
+}
+.rowRightTop{
+    grid-row:2/7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.rowRight{
+    grid-row:1/4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.profilInfo{
+    width: 90%;
+    border:1px solid #ddd;
+    padding: 20px
+}
+.profilInfo input,small{
+    margin-bottom: 15px
+}
+/* ////////////________Profil section son______________/////////////////////////// */
